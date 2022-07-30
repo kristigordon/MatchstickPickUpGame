@@ -36,3 +36,32 @@ while True:
 
 print("GAME OVER!")
 ```
+This first solution definitely works, however there is a lot of duplication. I am basically running the same 10 lines for player1 again for player2 in one long duplicative loop. I think I can do better. 
+
+This starts with creating a "current_player" value that we will start with it set to player1.
+
+Most of the rest of the first loop I had can stay, just need to change out any instance of player1 with current player and comment out the player2 loop. 
+<img width="609" alt="Screen Shot 2022-07-30 at 9 44 23 AM" src="https://user-images.githubusercontent.com/66803124/181917180-5b1e3020-89af-47f8-855a-7f46671bea6b.png">
+
+This "works" but now only player1 gets to pick up matchsticks and inevitably wins the game. No fair. Let's have player2 enter the fray. 
+
+We need to rotate each player into the current_player slot. 
+
+We can do this by checking if the current_player is player1 after a loop runs. If so, then let's switch them out of playler2. If it isn't, then let's make it player1 and keep on chuggin.
+<img width="912" alt="Screen Shot 2022-07-30 at 9 46 26 AM" src="https://user-images.githubusercontent.com/66803124/181917249-97eba8e0-6d12-4a2d-89c3-7b583884689a.png">
+
+And once again, it works!
+
+As long as our players are trustworthy and only type the numbers 1-3.... 
+
+<img width="694" alt="Screen Shot 2022-07-30 at 9 47 52 AM" src="https://user-images.githubusercontent.com/66803124/181917309-5cbc9971-40ed-4e21-9fee-312bf8571692.png">
+
+... I can't have my wife winning EVERY game. 
+
+So lets put some parameters in place:
+The player should only be able to select number 1, 2, or 3. Anything else will result in an error message and another input message attached to choice variable for the opportunity to try again. 
+
+<img width="896" alt="Screen Shot 2022-07-30 at 9 54 19 AM" src="https://user-images.githubusercontent.com/66803124/181917531-978c98e0-ba4b-464b-9b5d-c359ef93a694.png">
+
+And we got her! Now I can have a chance to ~*maybe*~ win. 
+
