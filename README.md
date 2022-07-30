@@ -40,7 +40,8 @@ This first solution definitely works, however there is a lot of duplication. I a
 
 This starts with creating a "current_player" value that we will start with it set to player1.
 
-Most of the rest of the first loop I had can stay, just need to change out any instance of player1 with current player and comment out the player2 loop. 
+Most of the rest of the first loop I had can stay, just need to change out any instance of player1 with current player and comment out the player2 loop.
+
 <img width="609" alt="Screen Shot 2022-07-30 at 9 44 23 AM" src="https://user-images.githubusercontent.com/66803124/181917180-5b1e3020-89af-47f8-855a-7f46671bea6b.png">
 
 This "works" but now only player1 gets to pick up matchsticks and inevitably wins the game. No fair. Let's have player2 enter the fray. 
@@ -48,6 +49,7 @@ This "works" but now only player1 gets to pick up matchsticks and inevitably win
 We need to rotate each player into the current_player slot. 
 
 We can do this by checking if the current_player is player1 after a loop runs. If so, then let's switch them out of playler2. If it isn't, then let's make it player1 and keep on chuggin.
+
 <img width="912" alt="Screen Shot 2022-07-30 at 9 46 26 AM" src="https://user-images.githubusercontent.com/66803124/181917249-97eba8e0-6d12-4a2d-89c3-7b583884689a.png">
 
 And once again, it works!
