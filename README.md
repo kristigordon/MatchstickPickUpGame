@@ -7,6 +7,9 @@ The two players input there names then go into a loop of selecting 1-3 matchstic
 
 <img width="660" alt="Screen Shot 2022-07-30 at 9 29 27 AM" src="https://user-images.githubusercontent.com/66803124/181916524-189824a5-89e0-4f3c-9317-9675e02b11ce.png">
 
+
+<img width="655" alt="Screen Shot 2022-07-30 at 9 30 40 AM" src="https://user-images.githubusercontent.com/66803124/181916571-1114bbdd-03ae-4116-9210-ef3e2dafa946.png">
+
 ```
 print("Welcome to the Matchstick Pickup Game!")
 print("*******************************")
@@ -33,5 +36,3 @@ while True:
 
 print("GAME OVER!")
 ```
-
-<img width="655" alt="Screen Shot 2022-07-30 at 9 30 40 AM" src="https://user-images.githubusercontent.com/66803124/181916571-1114bbdd-03ae-4116-9210-ef3e2dafa946.png">
