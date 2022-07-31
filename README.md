@@ -1,6 +1,6 @@
 # MatchstickPickUpGame
 
-This is a game that tests knowledge of loops. 
+This is a game that tests knowledge of conditionals, loops and ends with cleaning up the code. 
 
 The game starts with 13 "matchsticks": |
 The two players input there names then go into a loop of selecting 1-3 matchsticks until there is only one left and the player to pick up that remaining stick wins. 
