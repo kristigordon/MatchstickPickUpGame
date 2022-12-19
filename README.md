@@ -67,3 +67,5 @@ The player should only be able to select number 1, 2, or 3. Anything else will r
 
 And we got her! Now I can have a chance to ~*maybe*~ win. 
 
+For more projects like this, check out my website kristimariegordon.com!
+
